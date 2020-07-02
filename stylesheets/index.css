@@ -1,0 +1,46 @@
+/* line 1, ../sass/index.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+/* line 6, ../sass/index.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 9, ../sass/index.scss */
+#simple-description {
+  text-align: center;
+  width: 50%;
+  display: block;
+  margin: 2vh auto;
+}
+
+/* line 15, ../sass/index.scss */
+#parameters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* line 19, ../sass/index.scss */
+#parameters input, #parameters div {
+  display: inline-flex;
+}
+/* line 22, ../sass/index.scss */
+#parameters input {
+  width: 30%;
+  padding: 1vh 1vw;
+}
+
+/* line 27, ../sass/index.scss */
+#display-dash {
+  text-align: center;
+}
+/* line 29, ../sass/index.scss */
+#display-dash canvas {
+  margin-top: 5vh;
+  border-radius: 3px;
+  border: 2px solid #efefef;
+}

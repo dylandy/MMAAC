@@ -1,0 +1,34 @@
+html, body {
+  width:  100%;
+  height: 100%;
+  margin: 0px;
+}
+h1{
+  text-align:center;
+}
+#simple-description{
+  text-align:center;
+  width:50%;
+  display:block;
+  margin:2vh auto;
+}
+#parameters{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  input, div{
+    display:inline-flex; 
+  }
+  input{
+    width:30%;
+    padding:1vh 1vw;
+  }
+}
+#display-dash{
+  text-align:center;
+  canvas{
+    margin-top:5vh;
+    border-radius: 3px;
+    border: 2px solid #efefef;
+  }
+}
